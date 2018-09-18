@@ -1,0 +1,602 @@
+/* comon section */
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(img/wide12.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    /* position: absolute; */
+    width: 100%;
+}
+
+/* first Section */
+#headerSec {
+    background-color: rgba(0, 0, 0, 0.199);
+    position: relative;
+    color: white;
+}
+
+.headerSec-col p,
+h1 {
+    text-transform: capitalize;
+    float: left;
+    font-size: 13px;
+    word-spacing: 0.05cm;
+    padding-top: 5px;
+    margin-left: 15px;
+    font-family: Roboto;
+}
+
+#headerSec i {
+    padding-right: 10px;
+    color: #F3CD30;
+}
+
+#headerSec button:hover {
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#headerSec button {
+    width: 100px;
+    text-transform: capitalize;
+    height: 25px;
+    border: 1px solid rgba(192, 192, 192, 0.438);
+    font-size: 13px;
+    margin-left: 15px;
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.007)
+}
+
+#headerSec div div>div:last-child>i {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    margin-left: -10px
+}
+
+#headerSec div div>div:last-child>i:hover {
+    color: #F3CD30;
+}
+
+/* second section */
+#secondSec {
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.096)
+}
+
+.secondSec-col {
+    border: 1px solid transparent;
+    height: 60px;
+    color: white;
+    z-index: 2;
+}
+
+#secondSec .secondSec-col img {
+    width: 150px;
+    box-sizing: border-box;
+    margin-left: -15px
+}
+
+#secondSec a {
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 0px 20px 30px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 14px;
+    border: none;
+}
+
+#secondSec div div>div:last-child a:hover {
+    color: #F3CD30;
+}
+
+#secondSec div div>div:last-child a:nth-of-type(2):hover+ul {
+    top: 40px;
+    right: 430px;
+    display: block;
+}
+
+#secondSec .col-10 ul:hover {
+    display: block;
+}
+
+#secondSec .secondSec-col ul {
+    position: absolute;
+    display: none;
+    top: 40px;
+    right: 450px;
+    width: 170px;
+    transition: 0.2s;
+}
+
+#secondSec .secondSec-col ul li {
+    padding: 10px 0px;
+    background-color: rgb(34, 35, 39);
+    border-bottom: 1px solid rgba(248, 247, 247, 0.055);
+}
+
+#secondSec .secondSec-col ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#secondSec .secondSec-col ul li a:hover {
+    color: white;
+}
+
+#secondSec .secondSec-col ul li:hover {
+    display: block;
+    background-color: #F3CD30;
+    font-size: 16px;
+}
+
+/* tree Section */
+#treeSec {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+.treeSec-col {
+    color: white;
+}
+.treeSec-col a{
+    border: none
+}
+.treeSec-icon a i {
+    color: white;
+}
+
+.treeSec-icon a:nth-of-type(2) {
+    top: 140px;
+    left: calc(100% - 60px);
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(240, 255, 255, 0.233);
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 10px;
+}
+
+.treeSec-icon a:nth-of-type(1) {
+    top: 140px;
+    left: 40px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(240, 255, 255, 0.11);
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 10px;
+}
+
+#treeSec .treeSec-col h1 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-right: 50px
+}
+
+#treeSec .treeSec-col p {
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-left: 17px
+}
+
+#treeSec .col-9 button {
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 17px;
+    background-color: transparent;
+    border: 1px solid #F3CD30;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#treeSec .col-9 button a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    padding: 15px 47px;
+    transition: 0.2s;
+}
+
+#treeSec .col-9 button a:hover {
+    color: #F3CD30
+}
+
+#treeSec .col-9 button:hover {
+    border: 1px solid white;
+}
+
+/* four Section */
+#fourSec {
+    background: #F3CD30;
+}
+
+#fourSec .fourSec-col {
+    height: 90px;
+    color: black;
+    font-size: 20px;
+}
+
+#fourSec .fourSec-col p {
+    display: inline-block;
+    letter-spacing: 0.01cm;
+    margin-top: 35px;
+}
+
+#fourSec .fourSec-col button a {
+    display: inline;
+    /* width: 100px; */
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;
+    font-weight: bold;
+    border: none
+}
+
+#fourSec .fourSec-col button:hover {
+    background: black;
+}
+
+#fourSec .fourSec-col button a i {
+    top: 15px;
+    display: none;
+    font-size: 14px;
+}
+
+#fourSec .fourSec-col button>a>i:hover {
+    color: white;
+}
+
+#fourSec .fourSec-col button>a:hover+i {
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+
+#fourSec .fourSec-col button>a:hover {
+    color: white;
+}
+
+#fourSec .fourSec-col button {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 20px;
+    font-size: 17px;
+    text-transform: capitalize
+}
+
+/* five section */
+#fiveSec {
+    position: relative;
+    padding-top: 100px;
+}
+#fiveSec .row{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.fiveSec-col h1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #F3CD30;
+    padding-bottom: 10px;
+    color: white;
+    display: inline;
+    line-height: 1.1cm
+}
+
+.fiveSec-col p:nth-of-type(1) {
+    width: 50%;
+    padding: 60px 50px 0px 0px;
+    color: white;
+    line-height: .6cm;
+    font-size: 15px;
+}
+
+.fiveSec-col p:nth-of-type(2) {
+    width: 50%;
+    color: white;
+    padding: 60px 40px 0px 0px;
+    line-height: .6cm;
+    font-size: 15px;
+}
+
+.fiveSec-col button:hover {
+    background: white;
+}
+
+.fiveSec-col button {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white
+}
+
+#fiveSec .col-6 {
+    margin-bottom: 100px
+}
+
+.fiveSec-col button a {
+    color: white;
+    font-size: 15px;
+    padding: 8px 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+.fiveSec-col button a:hover {
+    color: black;
+    background: white
+}
+
+.fiveSec-col {
+    position: relative;
+    overflow: hidden;
+}
+
+.fiveSec-col img {
+    transition: 0.4s
+}
+
+#fiveSec .fiveSec-col:hover img {
+    transform: scale(1.1);
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.fiveSec-col a i {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 170px;
+    left: 260px
+}
+
+.fiveSec-col a i {
+    transition: 0.4s;
+}
+
+.fiveSec-col a i:hover {
+    transform: scale(2.2)
+}
+
+#fiveSec .col-3 {
+    width: 25%;
+    margin: 0px;
+    padding: -1px
+}
+
+#fiveSec .col-3 a {
+    transition: 0.4s;
+    border: none;
+    overflow: hidden;
+}
+
+#fiveSec .col-3 button {
+    width: 100%;
+    height: 100px;
+    margin: -1px;
+    border: none;
+    background: rgba(51, 51, 51, 0.233)
+}
+
+#fiveSec .col-3 button a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    padding: 42px 130px
+}
+
+#fiveSec .col-3 button:hover {
+    background: black;
+}
+
+#fiveSec .col-3 button a:hover {
+    color: white;
+}
+
+/* six section */
+.sixSec-col h1 {
+    display: inline-block;
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-left: -1px;
+    border-bottom: 2px solid #F3CD30;
+    width: 50px;
+    color: white;
+}
+
+.sixSec-col ul {
+    padding-top: 50px
+}
+
+.sixSec-col ul li {
+    float: left;
+    padding-right: 15px;
+    padding: 7px
+}
+
+.sixSec-col ul li:hover {
+    background: rgba(0, 0, 0, 0.473);
+}
+
+.sixSec-col ul li h2 {
+    border-top: 2px solid #F3CD30;
+    padding-top: 5px;
+    color: white
+}
+
+.sixSec-col ul li h2:hover {
+    color: rgb(112, 42, 42);
+}
+
+
+
+.sixSec-col {
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 400px
+}
+
+
+.sixSec-col ul li .turn-img
+{
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.274);
+    top: 250px;
+    transition: 1s;
+    display: none;
+}
+
+.sixSec-img img {
+    width: calc(100%/3 - 15px)
+}
+.sixSec-col ul li:hover .turn-img{
+    top: 254px;
+    left: 0px;
+    display: block;
+    color: white;
+    background: rgba(0, 0, 0, 0.336);
+}
+
+
+
+/* seven Section */
+#sevenSec {
+    height: 150px;
+    background: #F3CD30
+}
+
+.sevenSec-col {
+    position: relative;
+    width: calc(100%/4 - 10px);
+}
+
+.sevenSec-col h1 {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    font-weight: bold;
+}
+.sevenSec-col p{
+    color: rgba(0, 0, 0, 0.473);
+    font-size: 15px;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+   width: 150px;
+    
+}
+/* footer Section */
+#footerSec{
+    background: rgba(0, 0, 0, 0.712)
+}
+.footercol{
+    padding-top: 100px;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 300px;
+    color: rgb(190, 187, 187);
+   
+}
+.footercol img{
+    width: 40%;
+    padding-bottom: 20px;
+}
+.footercol li p{
+    color: white
+}
+.footercol h1{
+    width: 330px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 20px
+}
+.footercol iframe{
+    width: 100%;
+    height: 200px;
+}
+.footercol li{
+    text-transform: capitalize;
+    padding-top: 25px;
+    background: transparent;
+    color:rgb(247, 247, 15)
+}
+.footercol li b, a{
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+    width: 300px;
+    text-decoration: none;
+    color: white
+}
+.footer-col{
+    background: rgba(0, 0, 0, 0.308);
+    padding: 10px
+}
+.footer-col h1{
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    margin-left: -5px;
+}
+.footer-col img{
+    width: 5%;
+}
+.footer-col ul li{
+    display: inline;
+    padding-left: 10px;
+}
+#footerSec .footer-col ul{
+    padding-top: 10px;
+}
+.footer-col ul li i{
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    text-align: center;
+    transition: 0.2s;
+}
+.footer-col ul li i:hover{
+    background: silver;
+    color: yellow;
+    transform: scale(1.1)
+}

@@ -1,0 +1,310 @@
+/* comon section */
+.wrapper {
+    width: 75%;
+    margin: 0px auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%vw;
+    background: url(img/wide13.jpg);
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* header section */
+#headerSec {
+    position: relative;
+    background: rgba(0, 0, 0, 0.295);
+    height: 60px;
+}
+
+#headerSec .header-col {
+    padding-top: 10px
+}
+
+#headerSec .col-10 .header-col ul li {
+    display: inline;
+    color: white
+}
+
+#headerSec .col-10 .header-col ul li i {
+    display: inline;
+    padding-right: 20px;
+    color: #FFDB33;
+    font-size: 12px;
+}
+
+.header-col div button {
+    margin-right: 80px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    border: 1px solid;
+    text-transform: capitalize
+}
+
+#headerSec .header-col div button i {
+    padding-left: 50px;
+}
+
+#headerSec .col-2 .header-col ul li {
+    display: inline;
+    }
+
+#headerSec .col-2 .header-col ul li i {
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 8px 7px 5px 10px;
+    background: transparent;
+    transition: 0.7s
+}
+
+#headerSec .col-2 .header-col ul li i:hover {
+    background: #FFDB33;
+    color: black;
+    transform: scale(1.1)
+}
+
+/* nav section */
+#navSec {
+    position: sticky;
+    top: 0;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.452)
+}
+
+#navSec .col-12 .navSec-col2 ul {
+    margin-top: 20px
+}
+
+#navSec .col-12 div ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+#navSec .col-12 .navSec-col2 ul li a {
+    text-transform: capitalize;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#navSec .col-12 div ul li a:hover {
+    color: #FFDB33
+}
+
+#navSec .navSec-col2 ul li:nth-of-type(2) a:hover+.navSec-col3 {
+    top: 50px;
+    right: 200px;
+    display: block;
+}
+/* #navSec .navSec-col2 ul li:nth-of-type(2) a .navSec-col3 ul li a:hover{
+    color: black
+} */
+#navSec .col-12 .navSec-col .navSec-col2 .navSec-col3:hover {
+    display: block;
+   
+    top: 50px;
+    right: 200px;
+    transform: scale(1.1)
+}
+
+#navSec .col-12 .navSec-col .navSec-col2 .navSec-col3 {
+    width: 200px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.473);
+    top: 500px;
+    right: 265px;
+    transition: 3s
+}
+
+#navSec .col-12 .navSec-col .navSec-col2 .navSec-col3 ul {
+    text-align: left;
+}
+
+#navSec .navSec-col3 ul li {
+    display: block !important;
+    padding-bottom: 20px;
+}
+
+/* wisual section */
+#wisualSec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.wisualSec-col {
+    width: 100%;
+    height: 50px;
+    /* background: #FFDB33; */
+    text-align: center
+}
+
+.wisualSec-col h1 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.wisualSec-col div p {
+    display: inline;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 16px
+}
+
+.wisualSec-col div {
+    padding-top: 20px
+}
+
+.wisualSec-col div p:first-child {
+    color: #FFD200;
+    border-top: 3px solid #FFD200;
+}
+
+/* info section  */
+#infoSec {
+    height: 700px;
+    background: white;
+   
+}
+
+.col-8 .infoSec-row .infoSec-col div {
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.356);
+    margin-bottom: 30px;
+    text-transform: capitalize
+}
+
+.col-8 .infoSec-row .infoSec-col div div {
+    width: 12%;
+    height: 50px;
+    background: #FFD200;
+    text-align: center;
+}
+
+.col-8 .infoSec-row .infoSec-col div div a {
+    text-decoration: none;
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    left: 30px
+}
+
+.col-8 .infoSec-row .infoSec-col2 {
+    width: calc(100%/2 - 10px);
+    height: 400px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.col-8 .infoSec-row:nth-of-type(2) .infoSec-col2:nth-of-type(2) div {
+    /* height: calc(/6); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.671);
+    padding-bottom: 15px;padding-top: 10px
+}
+.col-8 .infoSec-row:nth-of-type(2) .infoSec-col2:nth-of-type(2) div a{
+    color: rgba(0, 0, 0, 0.397);
+    font-size: 15px;
+    text-decoration: none
+}
+#infoSec .col-4 .info-input{
+    width: 100%;
+    border: 1px solid;
+    margin-top: 100px;
+    height: 470px;
+    background: rgba(0, 0, 0, 0.062)
+}
+#infoSec .col-4 .info-input div{
+    width: 100%;
+    padding-bottom: 25px;
+    border: 1px solid transparent;
+}
+#infoSec .col-4 .info-input div input,textarea{
+    margin-left: 25px;
+    width: 85%;
+    height: 25px;
+}
+#infoSec .col-4 .info-input div h1{
+    margin: 15px 25px;
+    text-transform: capitalize;
+    border-bottom: 3px solid #FFD200;
+    width: 100px;
+    padding-bottom: 15px
+}
+#infoSec .col-4 .info-input div button{
+    margin-left: 25px;
+    width: 100px;
+    height: 30px;
+    text-transform:capitalize;
+    transition: 1s;
+}
+#infoSec .col-4 .info-input div button:hover{
+    color: white;
+    background: black;
+}
+/* content section */
+#contentSec{
+    background: url(img/wide12.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 330px;
+    
+
+}
+#contentSec .col-4 div{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 200px;
+}
+#contentSec .col-4 div img{
+    padding-bottom: 10px;
+}
+#contentSec .col-4 div p{
+    line-height: 0.6cm
+}
+#contentSec .col-4 div iframe{
+    width: 300px;
+    height: 220px;
+}
+#contentSec .col-4 div h1, iframe{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+#contentSec .col-4 .contentSec-col5 ul li h1{
+   position: relative;
+   display: inline;
+    color: #FFD200
+}
+#contentSec .col-4 .contentSec-col5 ul li p{
+    position: relative;
+    display: inline;
+    
+}
+#contentSec .col-4 .contentSec-col5 ul li{
+    padding-top: 15px;
+    border-bottom: 1px solid silver;
+}
+
+#footerSec{
+    height: 100px;
+    background: white;
+}
+#footerSec .col-12 h2{
+    display: inline;
+}

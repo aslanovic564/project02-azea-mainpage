@@ -1,0 +1,340 @@
+/* comon section */
+.wrapper{
+    width: 75%;
+    margin: 0px auto;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: grey;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+/* head Section */
+#headSec{
+    position: relative;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.24)
+}
+#headSec .row .col-9 ul li i{
+    color: yellow;
+    padding: 0px 10px
+}
+#headSec .row ul:nth-of-type(1) li{
+    display: inline;
+    padding-right: 10px;
+    color: white;
+    font-size: 14px
+}
+#headSec .row .col-3 ul li i{
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    color: firebrick
+}
+#headSec .row .col-3 ul li i:hover{
+    color: yellow;
+    background: rgba(0, 0, 0, 0.315);
+    transform: scale(1.7)
+}
+.head-col .col-9 ul li button i{
+   color: white
+}
+.head-col ul li button{
+    background: rgba(0, 0, 0, 0.308);
+    border: 1px solid white;
+    /* display: inline; */
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    text-align: left;
+    padding: 5px;
+    text-transform: capitalize
+}
+/* nav Section  */
+#navSec{
+    position:  sticky;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.356);
+    z-index: 10;
+}
+#navSec .row .col-10 .navSec-col ul{
+    padding-top: 30px;
+    /* overflow: hidden */
+}
+.navSec-col ul li{
+    display: inline;
+    text-transform: capitalize;
+    padding-left: 25px;
+}
+.navSec-col ul li a:hover{
+    color: yellow;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.452)
+}
+.navSec-col ul li a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: white
+}
+.navSec-col1 a{
+    border: 1px solid silver;
+    padding: 5px 15px;
+    display: block;
+}
+.navSec-col1 {
+    top: 50px;
+    right: 490px;
+    background: rgba(0, 0, 0, 0.034);
+    display: none;
+    overflow: hidden;
+}
+#navSec .row .col-10 .navSec-col ul li:nth-of-type(2):hover .navSec-col1{
+    top: 55px;
+    right: 490px;
+    display: block;
+
+}
+/* info section */
+
+#infoSec {
+    background: url(img/wide12.jpg);
+    background-attachment: fixed;
+    padding-bottom: 100px
+}
+.infoSec-col{
+    overflow: hidden;
+}
+#infoSec .col-12 .infoSec-col h1{
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+#infoSec .col-12 .infoSec-col div{
+    font-size: 15px;
+    display: inline;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+    /* width: 60px; */
+    color: white;
+}
+#infoSec .col-12 .infoSec-col div h2, h3, p{
+    display: inline;
+    
+}
+#infoSec .col-12 .infoSec-col{
+    padding-top:20px; 
+    left: 41%
+}
+#infoSec .col-12 .infoSec-col h3{
+    border-top: 3px solid rgb(245, 177, 6);
+    padding-top:18px; 
+}
+#infoSec .col-12 .infoSec-col div h2:nth-of-type(1){
+    color: yellow
+}
+#infoSec .col-12 .infoSec-col div h2:nth-of-type(1):hover{
+    color: white
+}
+/* project Section */
+#projectSec{
+    background: white;
+    height: 1300px;
+}
+.projectcol-img{
+    padding-top:100px;
+    overflow: hidden;
+}
+.projectcol-img div{
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid silver;
+}
+.projectcol-img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.projectcol-img img:hover{
+    transform: scale(1.1);
+   
+}
+.projectcol-img img:hover+i{
+    display: block;
+    left: 40%;
+    top: 40%;
+    
+}
+#projectSec .projectcol-img div i{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    color: white;
+    font-size: 50px;
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    padding: 11px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: 0.3;
+    display: none
+}
+#projectSec .projectcol-img div i:hover{
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.603);
+    color: yellow;
+}
+#projectSec .col-4 .projectcol-info div{
+    padding-top: 100px;
+    font-size: 15px
+}
+.projectcol-info{
+    overflow: hidden;
+}
+#projectSec .col-4 .projectcol-info div:nth-of-type(2){
+    background: rgba(192, 192, 192, 0.432);
+    border-left: 3px solid yellow;
+    font-style: italic;
+    padding-left: 10px
+}
+#projectSec .col-4 .projectcol-info div p{
+    line-height: 0.9cm;
+}
+#projectSec .projectSec-nav ul{
+    padding-top: 110px;
+}
+#projectSec .projectSec-nav ul a{
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.315);
+    display: inline;
+    margin: 1px
+}
+#projectSec .projectSec-nav ul a li{
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.37)
+}
+#projectSec .projectSec-nav ul a:hover{
+    color: rgb(0, 14, 1);
+   
+}
+#projectSec .projectSec-nav ul a li:hover{
+    background: rgba(172, 9, 9, 0.473)
+}
+.projectSec-nav {
+    overflow: hidden;
+}
+/* aside section */
+#asideSec {
+    background: #FFD200;
+    height: 100px;
+    /* background-attachment: fixed;
+    background-size: cover; */
+    padding-bottom: 100px;
+    /* padding-bottom: 20px; */
+}
+.aside-col p{
+    color: black;
+    font-size: 20px
+}
+.col-12 .aside-col div{
+    padding-top: 30px
+}
+.col-12 .aside-col div a button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px ;
+    text-transform: uppercase;
+    text-align: left; 
+    background: transparent;
+    border: 1px solid black
+}
+.col-12 .aside-col div a i{
+    right: -100px;
+    top: 45px;
+    transition: 3s;
+    display: none;
+    color: white;
+}
+/* .col-12 .aside-col div a button h1{
+    position: absolute
+} */
+.col-12 .aside-col div a button:hover~i{
+    display: block;
+    right: 10px;
+    top: 42px;
+    transition: 2s;
+}
+/* .col-12 .aside-col div a button:hover+.overlay{
+    right: 0px;
+    transition: 1s;
+    display: block;
+    color: rgba(0, 0, 0, 0.637)
+
+} */
+.col-12 .aside-col div a button:hover{
+    color: white;
+    background: black;
+    transition: 1s;
+}
+
+
+/* footer section */
+#footerSec{
+    background: url(img/wide13.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#footerSec .footer-col{
+    padding-top: 60px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+#footerSec .footer-col div{
+    margin: 15px 0px
+}
+#footerSec .footer-col div p{
+    color: white;
+}
+#footerSec .footer-col ul li{
+    color: white
+}
+
+#footerSec .footer-col div h1{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;  
+}
+#footerSec .footer-end div p{
+   display: inline
+}
+#footerSec .footer-end div ul{
+    padding-top: 25px;
+}
+#footerSec .footer-end div ul li{
+    display: inline;
+    padding-left: 15px;
+    color: white;
+}
+#footerSec .footer-end div ul li:hover{
+    color: #FFD200;
+    text-align: center
+}
